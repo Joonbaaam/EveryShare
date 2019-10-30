@@ -98,8 +98,12 @@
 /* 새로 추가한 css
 ------------------------------------- */
 div.highlighted-categories p#mainLogin{
-	margin-top: 30px;
+	margin-top: 90px;
     margin-bottom: 5px;
+}
+
+div.col-fs-12 #searchButton{
+	padding: 0px 25px 0px 25px;
 }
 
 
@@ -1833,7 +1837,7 @@ em.mm-counter+a.mm-fullsubopen+span {
 	float: left;
 	border-radius: 50px;
 	margin: 10px 5px 0 0;
-	padding: 3px 17px;
+	padding: 7px 15px;
 	text-align: center;
 	transition: 0.4s;
 	transform: scale(1);
@@ -1957,6 +1961,7 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out{
 }
 
 .main-search-container h4 {
+	margin-top: 20px;
 	font-size: 24px;
 	font-weight: 300;
 	color: #777;
@@ -3562,7 +3567,7 @@ button.panel-cancel:active { transform: translateY(-2px); }
 }
 
 .fs-inner-container.content {
-	width: 55%;
+	width: 40%;
 	background-color: #f7f7f7;
 	z-index: 995;
 	box-shadow: 0px 0px 12px 0px rgba(0,0,0,0.12);
@@ -3571,7 +3576,7 @@ button.panel-cancel:active { transform: translateY(-2px); }
 }
 
 .fs-inner-container {
-	width: 45%;
+	width: 100%;
 	background-color: #fff;
 	z-index: 10;
 }

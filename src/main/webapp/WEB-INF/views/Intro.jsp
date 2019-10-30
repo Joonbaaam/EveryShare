@@ -56,7 +56,8 @@
 					    	<i class="im im-icon-Home"></i>
 					    	<h4>서비스 이용하기</h4>
 						</a>	
-						<p id="mainLogin">로그인</p><p>회원가입</p>	
+						<p id="mainLogin"><a href="#sign-in-dialog" class="sign-in popup-with-zoom-anim">로그인</a></p>
+						<p><a href="#sign-in-dialog" class="sign-in popup-with-zoom-anim">회원가입</a></p>	
 					</div>
 					
 				</div>

@@ -58,7 +58,6 @@
 
 <!-- Content
 ================================================== -->
-
 <!-- Listings -->
 <div class="container margin-top-70">
 	<div class="row">
@@ -451,7 +450,7 @@
 				</a>
 			</div>
 			<!-- Blog post Item / End -->
-
+			
 			<!-- Blog Post Item -->
 			<div class="col-md-4">
 				<a href="pages-blog-post.html" class="blog-compact-item-container">
@@ -477,6 +476,7 @@
 		</div>
 
 	</div>
+	
 </section>
 <!-- Recent Blog Posts / End -->
 
