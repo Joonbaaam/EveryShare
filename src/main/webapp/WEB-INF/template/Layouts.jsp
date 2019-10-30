@@ -63,7 +63,7 @@
 	<script type="text/javascript" src="<c:url value='/resources/scripts/typed.js'/>"></script>
 	<script>
 	var typed = new Typed('.typed-words', {
-	strings: ["Attractions"," Restaurants"," Hotels"],
+	strings: ["전동 드라이버"," 삼각대"," 버너"],
 		typeSpeed: 80,
 		backSpeed: 80,
 		backDelay: 4000,

@@ -95,6 +95,16 @@
 ---------------------------------------------------------------------- */
 
 /* ---------------------------------- */
+/* 새로 추가한 css
+------------------------------------- */
+div.highlighted-categories p#mainLogin{
+	margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+
+
+/* ---------------------------------- */
 /* Forms Reset & Styles
 ------------------------------------- */
 input,
@@ -1942,6 +1952,7 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out{
 }
 
 .main-search-container h2 {
+	margin-top: 250px;
 	font-size: 42px;
 }
 
@@ -2155,12 +2166,15 @@ body .typed-cursor.typed-cursor--blink.typed-fade-out{
 .main-search-inner .highlighted-category { float: none; }
 .main-search-inner .highlighted-category i {float: none; }
 .main-search-inner .highlighted-category {
+	background-color: #f91942;
+	margin-top: 100px;
     padding: 3px 15px;
     display: inline-block;
 }
 
 .main-search-form { text-align: left; }
 .main-search-inner .highlighted-category h4 {
+	padding: 10px;
     top: -1px;
     position: relative;
 }
