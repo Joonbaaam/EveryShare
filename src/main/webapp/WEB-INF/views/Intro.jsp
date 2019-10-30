@@ -5,44 +5,42 @@
 
 <!-- Banner
 ================================================== -->
-<div class="main-search-container centered" data-background-image="<c:url value='/resources/images/main-search-background-01.jpg'/>">
+<div class="main-search-container centered" data-background-image="<c:url value='/resources/images/'/>">
 	<div class="main-search-inner">
 
 		<div class="container">
 			<div class="row">
 				<div class="col-md-12">
 					<h2>
-						Find Nearby 
-						<!-- Typed words can be configured in script settings at the bottom of this HTML file -->
 						<span class="typed-words"></span>
+						필요하세요? 
+						<!-- Typed words can be configured in script settings at the bottom of this HTML file -->
+						
 					</h2>
-					<h4>Expolore top-rated attractions, activities and more</h4>
+					<h4>공유하고 함께 즐겨요</h4>
 
 					<div class="main-search-input">
 
 						<div class="main-search-input-item">
-							<input type="text" placeholder="What are you looking for?" value=""/>
+							<input type="text" placeholder="찾는 물건을 검색해보세요" value=""/>
 						</div>
 
 						<div class="main-search-input-item location">
 							<div id="autocomplete-container">
-								<input id="autocomplete-input" type="text" placeholder="Location">
+								<input id="autocomplete-input" type="text" placeholder="지역">
 							</div>
 							<a href="#"><i class="fa fa-map-marker"></i></a>
 						</div>
 
 						<div class="main-search-input-item">
-							<select data-placeholder="All Categories" class="chosen-select" >
-								<option>All Categories</option>	
-								<option>Shops</option>
-								<option>Hotels</option>
-								<option>Restaurants</option>
-								<option>Fitness</option>
-								<option>Events</option>
+							<select data-placeholder="카테고리" class="chosen-select" >
+								<option>카테고리</option>
+								<option>물건공유</option>
+								<option>공동구매</option>
 							</select>
-						</div>
+						</div> 
 
-						<button class="button" onclick="window.location.href='listings-half-screen-map-list.html'">Search</button>
+						<button class="button" onclick="window.location.href='listings-half-screen-map-list.html'">검색</button>
 
 					</div>
 				</div>
@@ -51,32 +49,14 @@
 			<!-- Features Categories -->
 			<div class="row">
 				<div class="col-md-12">
-					<h5 class="highlighted-categories-headline">Or browse featured categories:</h5>
 					  
 					<div class="highlighted-categories">
 						<!-- Box -->
 						<a href="listings-list-with-sidebar.html" class="highlighted-category">
 					    	<i class="im im-icon-Home"></i>
-					    	<h4>Apartments</h4>
+					    	<h4>서비스 이용하기</h4>
 						</a>	
-
-						<!-- Box -->
-						<a href="listings-list-full-width.html" class="highlighted-category">
-					    	<i class="im im-icon-Hamburger"></i>
-					    	<h4>Eat &amp; Drink</h4>
-						</a>	
-
-						<!-- Box -->
-						<a href="listings-half-screen-map-list.html" class="highlighted-category">
-					    	<i class="im im-icon-Electric-Guitar"></i>
-					    	<h4>Events</h4>
-						</a>	
-
-						<!-- Box -->
-						<a href="listings-half-screen-map-list.html" class="highlighted-category">
-					    	<i class="im im-icon-Dumbbell"></i>
-					    	<h4>Fitness</h4>
-						</a>		
+						<p id="mainLogin">로그인</p><p>회원가입</p>	
 					</div>
 					
 				</div>

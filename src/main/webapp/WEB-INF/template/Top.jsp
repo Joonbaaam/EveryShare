@@ -103,15 +103,15 @@
 			<div id="sign-in-dialog" class="zoom-anim-dialog mfp-hide">
 
 				<div class="small-dialog-header">
-					<h3>Sign In</h3>
+					<h3>회원가입</h3>
 				</div>
 
 				<!--Tabs -->
 				<div class="sign-in-form style-1">
 
 					<ul class="tabs-nav">
-						<li class=""><a href="#tab1">Log In</a></li>
-						<li><a href="#tab2">Register</a></li>
+						<li class=""><a href="#tab1">로그인</a></li>
+						<li><a href="#tab2">회원가입</a></li>
 					</ul>
 
 					<div class="tabs-container alt">
@@ -121,7 +121,7 @@
 							<form method="post" class="login">
 
 								<p class="form-row form-row-wide">
-									<label for="username">Username: <i
+									<label for="username">Email: <i
 										class="im im-icon-Male"></i> <input type="text"
 										class="input-text" name="username" id="username" value="" />
 									</label>
@@ -131,8 +131,7 @@
 									<label for="password">Password: <i
 										class="im im-icon-Lock-2"></i> <input class="input-text"
 										type="password" name="password" id="password" />
-									</label> <span class="lost_password"> <a href="#">Lost Your
-											Password?</a>
+									</label> <span class="lost_password"> <a href="#">비밀번호를 잊어버리셨나요?</a>
 									</span>
 								</p>
 
