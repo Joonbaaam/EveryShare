@@ -6,6 +6,8 @@
 	charset="utf-8"></script>
 <script type="text/javascript"
 	src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+<!-- 우편번호 검색을 위한 추가 script -->
+<script src="https://ssl.daumcdn.net/dmaps/map_js_init/postcode.v2.js"></script>
 
 <!-- Header Container
 ================================================== -->
@@ -167,9 +169,10 @@
 								</p>
 
 								<p class="form-row form-row-wide">
-									<label for="username2">주소: <i class="im im-icon-Male"></i>
-										<input type="text" class="input-text" name="username"
+									<label for="username2">주소:<button type="button" style="width:60px; height:32px;" onclick="searchAddr()">검색</button> <i class="im im-icon-Male"></i>
+										<input type="text" class="input-text" name="useraddr"
 										id="username2" value="" />
+										
 									</label>
 								</p>
 
@@ -326,3 +329,15 @@
 	<!-- Header / End -->
 
 </header>
+
+
+<!-- 우편검색을 위한 script -->
+<script>
+function searchAddr(){
+	new daum.Postcode({
+		oncomplete: function(data){
+			$('[name=useraddr]').val(data.address);
+		}
+	}).open();
+}
+</script>
